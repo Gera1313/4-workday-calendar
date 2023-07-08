@@ -1,6 +1,6 @@
 # 5-workday-calendar
 
-## Your Task
+## The Task
 
 A simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm). This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
@@ -39,7 +39,7 @@ I seem to be missing some functionality. The past, present, future feature does 
 
 ## Deployed site link
 
-[Workday Calendar URL]()
+[Workday Calendar URL](https://gera1313.github.io/5-workday-calendar/)
 
 ## Installation
 N/A
