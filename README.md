@@ -37,9 +37,13 @@ The following image displays the application homepage:
 
 I seem to be missing some functionality. The past, present, future feature does not seem work properly. 
 
+## Notes
+
+12/04/23 UPDATE: Working on refactoring and fixing this web application.
+
 ## Deployed site link
 
-[Workday Calendar URL](https://gera1313.github.io/5-workday-calendar/)
+[Workday Calendar URL](https://gera1313.github.io/workday-calendar/)
 
 ## Installation
 N/A
