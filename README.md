@@ -1,4 +1,4 @@
-# 5-workday-calendar
+# Workday Calendar
 
 ## The Task
 
