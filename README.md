@@ -31,7 +31,12 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
+## Installation
+
+N/A
+
 ## Usage
+
 The following image displays the application homepage:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/Home.png)
@@ -46,8 +51,6 @@ I seem to be missing some functionality. The past, present, future feature does 
 
 [Workday Calendar URL](https://gera1313.github.io/workday-calendar/)
 
-## Installation
-N/A
-
 ## Licenses
+
 N/A
