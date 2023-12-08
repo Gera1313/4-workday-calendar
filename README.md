@@ -41,9 +41,9 @@ The following image displays the application homepage:
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/Home.png)
 
-I seem to be missing some functionality. The past, present, future feature does not seem work properly. 
-
 ## Notes
+
+I seem to be missing some functionality. The past, present, future feature does not seem work properly. 
 
 12/04/23 UPDATE: Working on refactoring and fixing this web application.
 
@@ -51,6 +51,6 @@ I seem to be missing some functionality. The past, present, future feature does 
 
 [Workday Calendar URL](https://gera1313.github.io/workday-calendar/)
 
-## Licenses
+## License
 
-N/A
+## [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
