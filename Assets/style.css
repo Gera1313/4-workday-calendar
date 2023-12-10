@@ -5,15 +5,21 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 13px;
-    background-color: #273C2C;
+    background-color: #FCF7FF;
+}
+
+header {
+    background-color: #655560;
+    color: #FCF7FF; 
+    border-bottom: 5px solid #A4969B;
 }
 
 textarea {
     background: transparent;
     border: none;
     resize: none; 
-    color: #333;
-    border-left: 1px solid #626868;
+    color: #000000;
+    border-left: 1px solid #C4CAD0;
     padding: 10px; 
 }
 
@@ -31,16 +37,16 @@ textarea {
 }
 
 .hour {
-    background-color: #444141;
+    background-color: #878C8F;
     color: #fff;
-    border-top: 1px solid #000000;
+    border-top: 1px solid #A4969B;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     font-weight: bolder;
 }
 
 .past {
-    background-color: #d3d3d3;
+    background-color: #C4CAD0;
     color: white;
 }
 
@@ -55,10 +61,10 @@ textarea {
 }
 
 .saveBtn{
-    border-left: 1px solid 626868;
+    border-left: 1px solid #A4969B;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #5c1818;
+    background-color: #655560;
     color: white;
 }
 
