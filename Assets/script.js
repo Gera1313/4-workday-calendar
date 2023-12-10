@@ -57,3 +57,12 @@ let today = dayjs().format('MMM D, YYYY, dddd, hh:mm a');
 $('#currentDay').text("Today is " + today)
 
 // I seem to be missing some functionality. The past, present, future feature does not seem work properly.
+
+$(document).ready(function () {
+    $(".saveBtn").on("click", function () {
+        let text = $(this).siblings(".description").val();
+        let time = $(this).parent().attr("id");
+  
+        localStorage.setItem(time, text);
+    })
+});
