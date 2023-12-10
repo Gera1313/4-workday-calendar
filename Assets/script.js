@@ -38,16 +38,16 @@ function timeIndicator() {
 
 // Gets user input that was saved in local storage and sets the values of the textarea elements. 
 
-$("#nineHour.description").val(localStorage.getItem("nineHour"));
-$("#tenHour.description").val(localStorage.getItem("tenHour"));
-$("#elevenHour.description").val(localStorage.getItem("elevenHour"));
-$("#twelveHour.description").val(localStorage.getItem("twelveHour"));
-$("#oneHour.description").val(localStorage.getItem("oneHour"));
-$("#twoHour.description").val(localStorage.getItem("twoHour"));
-$("#threeHour.description").val(localStorage.getItem("threeHour"));
-$("#fourHour.description").val(localStorage.getItem("fourHour"));
-$("#fiveHour.description").val(localStorage.getItem("fiveHour"));
-$("#sixHour.description").val(localStorage.getItem("sixHour"));
+$("#9.description").val(localStorage.getItem("nineHour"));
+$("#10.description").val(localStorage.getItem("tenHour"));
+$("#11.description").val(localStorage.getItem("elevenHour"));
+$("#12.description").val(localStorage.getItem("twelveHour"));
+$("#13.description").val(localStorage.getItem("oneHour"));
+$("#14.description").val(localStorage.getItem("twoHour"));
+$("#15.description").val(localStorage.getItem("threeHour"));
+$("#16.description").val(localStorage.getItem("fourHour"));
+$("#17.description").val(localStorage.getItem("fiveHour"));
+$("#18.description").val(localStorage.getItem("sixHour"));
 
 timeIndicator();
 
