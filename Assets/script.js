@@ -35,7 +35,7 @@ function timeIndicator() {
   let currentTime = dayjs().hour();
 
   $(".time-block").each(function () {
-    let timeBlockEl = parseInt($(this).attr("id").split("hour")[1]);
+    let timeBlockEl = parseInt($(this).attr("id")); //.split("hour")[1]);
 
     if (timeBlockEl > currentTime) {
       $(this).removeClass("past");
