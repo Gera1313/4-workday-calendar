@@ -1,12 +1,13 @@
-// add event listener on save button. 
+// Save data to local storage before the page is unloaded
 
-$(document).ready(function () {
-    $(".saveBtn").on("click", function () {
-        let text = $(this).siblings(".description").val();
-        let time = $(this).parent().attr("id");
+$(window).on("beforeunload", function () {
+    // Save user input to local storage
+    $(".time-block").each(function () {
+        let id = $(this).attr("id");
+        let text = $(this).find(".description").val();
   
-        localStorage.setItem(time, text);
-    })
+        localStorage.setItem(id, text);
+    });
   });
 
 //  Applies the past, present, or future class to each time block by comparing the id to the current hour. 
@@ -55,14 +56,3 @@ timeIndicator();
 
 let today = dayjs().format('MMM D, YYYY, dddd, hh:mm a');
 $('#currentDay').text("Today is " + today)
-
-// I seem to be missing some functionality. The past, present, future feature does not seem work properly.
-
-$(document).ready(function () {
-    $(".saveBtn").on("click", function () {
-        let text = $(this).siblings(".description").val();
-        let time = $(this).parent().attr("id");
-  
-        localStorage.setItem(time, text);
-    })
-});
