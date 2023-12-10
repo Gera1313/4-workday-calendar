@@ -1,19 +1,20 @@
 * {
-    color: white;
+    color: #333;
 }
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 13px;
-    background-color: black;
+    background-color: #f5f5f5;
 }
 
 textarea {
-    background: transparent;
+    /* background: transparent; */
+    background: #fff;
     border: none;
     resize: none; 
-    color: #000000;
-    border-left: 1px solid black;
+    color: #333;
+    border-left: 1px solid #ddd;
     padding: 10px; 
 }
 
@@ -27,12 +28,12 @@ textarea {
 }
 
 .row {
-    border-top: 1px solid white; 
+    border-top: 1px solid #ddd; 
 }
 
 .hour {
-    background-color: #444141;
-    color: #ffffff;
+    background-color: #3498DB;
+    color: #fff;
     border-top: 1px solid #000000;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -45,7 +46,7 @@ textarea {
 }
 
 .present {
-    background-color: #ff6961;
+    background-color: #ff6347;
     color: white;
 }
 
@@ -58,7 +59,7 @@ textarea {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-    background-color: #5c1818;
+    background-color: #3498DB;
     color: white;
 }
 
