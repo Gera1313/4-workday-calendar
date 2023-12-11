@@ -43,9 +43,7 @@ The following image displays the application homepage:
 
 ## Notes
 
-I seem to be missing some functionality. The past, present, future feature does not seem work properly. 
-
-12/04/23 UPDATE: Working on refactoring and fixing this web application.
+N/A
 
 ## Deployed site link
 
