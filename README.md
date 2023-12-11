@@ -37,9 +37,13 @@ N/A
 
 ## Usage
 
-The following image displays the application homepage:
+The following image displays the application homepage (currently all events have passed):
 
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/Home.png)
+
+This is when you have future events: 
+
+![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/Images/Home2.png)
 
 ## Notes
 
