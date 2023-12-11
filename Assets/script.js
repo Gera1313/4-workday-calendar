@@ -12,6 +12,7 @@ $(window).on("beforeunload", function () {
 
 //   Load data from local storage when the document is ready
 
+
 $(document).ready(function () {
   $(".saveBtn").on("click", function () {
     let text = $(this).siblings(".description").val();

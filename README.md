@@ -2,7 +2,7 @@
 
 ## The Task
 
-A simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm). This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+A simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;6pm). This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 I aim to exhibit proficiency in utilizing jQuery and other third-party APIs.
 
 ## User Story
